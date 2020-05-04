@@ -35,12 +35,8 @@ class _ProfilePageState extends State<ProfilePage>
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
+          header(),
           Expanded(
-            flex: 1,
-            child: header(),
-          ),
-          Expanded(
-            flex: 3,
             child: tabView(),
           ),
         ],
