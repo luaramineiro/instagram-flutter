@@ -47,7 +47,7 @@ class CircularAvatar extends StatelessWidget {
                         color: Colors.white,
                         width: 2,
                       ),
-                      color: Colors.lightBlueAccent[400],
+                      color: Colors.lightBlueAccent,
                     ),
                     child: Icon(
                       icon,
